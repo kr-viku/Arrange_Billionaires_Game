@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Top 10 Richest People</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script
+      src="https://kit.fontawesome.com/3da1a747b2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div id="divone">
+        <h1 style="text-align: center; color:rgba(255, 51, 0, 0.973);">Arrange The Billionaires</h1>
+        <hr style="border: 2px solid; color:rgba(132, 0, 255, 0.349)">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1" Style="color:black;">Name :</label>
+            <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Your Full Name" autocomplete="off"  required>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1" Style="color:black;">Email :</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" autocomplete="off" required>
+          </div >
+          <div align=center>
+          <button type="submit" class="btn btn-primary" id="namebtn">Submit</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <div class="section mb-3" id="divtwo">
+    <div>
+    <h1 style="text-align: center;color:red">10 Richest People</h1>
+    <hr>
+    <p style="text-align: center">Drag and drop the items into their corresponding spots and check the order👇👇</p>
+    </div>
+    <div>
+      <h3 style=" text-align: center;color: blue;" id="marks" class="mark">Correct:<tab>Incorrect:</tab></h3>
+      <h3 Style="text-align: center; color: green;" id="marks1" class="mark">Your Score:</h3>
+    </div>
+    <div align=center>
+    <ul class="draggable-list" id="draggable-list"></ul></div>
+    <div style="text-align: center">
+    <button class="btn btn-secondary check-btn" id="check">
+      Check Order
+      <i class="fas fa-paper-plane"></i>
+    </button>
+    <button class="btn btn-secondary" id="checkbtn">
+      Restart
+      <i class="fas fa-paper-plane"></i>
+    </button>
+  </div>
+    <!-- </div> -->
+
+    <div class="popup-container" id="popup-container">
+      <div class="popup">
+        <h2 id="final-message"></h2>
+        <h3 id="final-message-reveal-word"></h3>
+        <button id="play-button">Play Again</button>
+      </div>
+    </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
